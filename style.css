@@ -1,0 +1,292 @@
+#kart_container {
+  width: 1000px;
+  margin: 0px auto;
+  padding: 20px;
+  border: 1px solid #bcbcbc;
+
+}
+#kart_header {
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #bcbcbc;
+  font-style: italic;
+  font-size: 15px;
+  box-shadow: 0px 0px 15px rgba(0,0,0,.3);
+  -moz-box-shadow: 0px 0px 15px rgba(0,0,0,.3);
+  -webkit-box-shadow: 0px 0px 15px rgba(0,0,0,.3);
+  -o-box-shadow: 0px 0px 15px rgba(0,0,0,.3);
+  -moz-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  background-color:#5c5c5c;
+  border: 1px solid #bcbcbc;
+}
+#kartMain{
+  font-family:arial;
+  text-decoration: none;
+  color: white;
+}
+#kart_sidebar {
+  width: 960px;
+  padding: 20px;
+  margin-bottom: 20px;
+  float: top;
+  font-style: italic;
+  font-size: 15px;
+  box-shadow: 0px 0px 15px rgba(0,0,0,.3);
+  -moz-box-shadow: 0px 0px 15px rgba(0,0,0,.3);
+  -webkit-box-shadow: 0px 0px 15px rgba(0,0,0,.3);
+  -o-box-shadow: 0px 0px 15px rgba(0,0,0,.3);
+  -moz-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  background-color:#5c5c5c;
+  border: 1px solid #bcbcbc;
+}
+#kart_content {
+  width: 780px;
+  padding: 10px;
+  margin-bottom: 20px;
+  float: left;
+  border: 1px solid #bcbcbc;
+}
+#kart_sidebar-right {
+  width: 160px;
+  padding: 20px;
+  margin-bottom: 20px;
+  float: right;
+  border: 1px solid #bcbcbc;
+}
+#kart_footer {
+  clear: both;
+  padding: 20px;
+  border: 1px solid #bcbcbc;
+}
+
+#kart_sidebar ul li {
+float:left;
+list-style-type:none;
+}
+
+#kart_sidebar a {
+height:16px;
+color:#f1f1f1;
+
+font-size:14px;
+padding:0 10px 0 10px;
+text-decoration:none;
+}
+
+#kart_sidebar a:hover {
+color:#D4F4FA;
+border-bottom:1px solid #FAED7D;
+}
+
+#kart_sidebar ul ul {
+display:none;
+position:absolute;
+background-color:#5c5c5c;
+}
+
+#kart_sidebar ul li:hover ul {
+display: block;
+}
+
+#kart_sidebar ul ul li {
+float:none;
+}
+.kart_h3{
+color: #696969;
+margin: 20px 10px;
+
+}
+table.type11 {
+  border-collapse: separate;
+  border-spacing: 1px;
+  text-align: center;
+  line-height: 1.5;
+  margin: 20px 10px;
+}
+table.type11 th {
+  width: 155px;
+  padding: 10px;
+  font-weight: bold;
+  vertical-align: top;
+  text-align: center;
+  color: #fff;
+  background: #5c5c5c ;
+}
+table.type11 td {
+  width: 300px;
+  padding: 10px;
+  vertical-align: top;
+  border-bottom: 1px solid #ccc;
+  background: #eee;
+}
+table.type12 {
+  border-collapse: separate;
+  border-spacing: 1px;
+  border-color: white;
+  text-align: center;
+  line-height: 1.5;
+  margin: 10px 0px;
+
+}
+table.type12 th {
+
+  padding: 10px;
+  font-weight: bold;
+  vertical-align: top;
+  text-align: center;
+  color: #fff;
+  background: #5c5c5c ;
+}
+table.type12 td {
+
+  padding: 10px;
+  vertical-align: top;
+  border-bottom: 1px solid #ccc;
+  background: #eee;
+}
+table.type13 {
+  border-collapse: separate;
+  border-spacing: 1px;
+  border-color: white;
+  text-align: center;
+  line-height: 1.5;
+  margin: 10px 0px;
+
+}
+table.type13 th {
+
+  padding: 10px;
+  font-weight: bold;
+  vertical-align: top;
+  text-align: center;
+  color: #fff;
+  background: #5c5c5c ;
+}
+table.type13 td {
+
+  padding: 10px;
+  vertical-align: middle;
+  border-bottom: 1px solid #ccc;
+  background: #eee;
+}
+#td1{
+  width: 155px;
+  padding: 10px;
+  font-weight: bold;
+  vertical-align: top;
+  color: #fff;
+  background: #5c5c5c ;
+}
+
+.kart_nav_ul{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: #fabab5;
+  list-style-type: none;
+}
+
+
+#rank_item{
+  width: 870px;
+}
+#rank_speedTeam{
+  width: 800px;
+}
+#rank_speedTeam1{
+  width: 230px;
+}
+#rank_speedsolo{
+  width:800px;
+}
+#rank_speedsolo1{
+  width: 55px;
+}
+#rank_tier_point{
+  width: 150px;
+}
+#tier_bronze{
+  background-color: #c49c48;
+  color: white;
+}
+#tier_silver{
+  background-color: silver;
+  color: white;
+}
+#tier_gold{
+  background-color: gold;
+  color: white;
+}
+#tier_platinum{
+  background-color: #d373d4;
+  color: white;
+}
+#tier_dia{
+  background-color: #538cee;
+  color: white;
+}
+#tier_master{
+  background-color: #f61eed;
+  color: white;
+}
+#tier_challenger{
+  background-color: #f42c69;
+  color: white;
+}
+#tier_legend{
+  background-color: #2cbdf4;
+  color: white;
+}
+#tier_champion{
+  background-color: #2cbdf4;
+  color: white;
+}
+#tier_promotion{
+  background: #ce4869;
+  color: white;
+}
+#promotion_sil{
+  background: #aaaaaa;
+  color: white;
+}
+#promotion_condition{
+  width: 900px;
+}
+table.character_legend_table {
+  border-collapse: separate;
+  border-spacing: 1px;
+  border-color: white;
+  text-align: center;
+  line-height: 1.5;
+  margin: 10px 0px;
+
+}
+table.character_legend_table th {
+
+  padding: 10px;
+  font-weight: bold;
+  vertical-align: top;
+  text-align: center;
+  color: #fff;
+  background: #5c5c5c;
+  font-size: 18px;
+}
+table.character_legend_table td {
+
+  padding: 10px;
+  vertical-align: middle;
+  border-bottom: 1px solid #ccc;
+  background: #eee;
+}
+#character_table{
+  background: #5c5c5c;
+  color: #fff;
+}
